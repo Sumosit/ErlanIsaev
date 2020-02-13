@@ -1,0 +1,125 @@
+@font-face {
+    font-family: PathwayGothicOne-Regular;
+    src: url("static/PathwayGothicOne-Regular.ttf");
+}
+body {
+    background: #212121;
+}
+.wrapper {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.wrapper {
+    border: 3px solid #ff91a9;
+    border-radius: 5px;
+    background-color: #F5F5DC;
+}
+.box {
+    padding: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+.table-info-back {
+    background-color: #393939;
+}
+.table-info-word {
+    color: #b4b4b4;
+    font-family: "Franklin Gothic Book", sans-serif;
+    font-size: 20px;
+}
+.add_form-back {
+    background-color: #b1b1b1;
+}
+.add-form-word {
+    color: #000000;
+    font-family: "Franklin Gothic Book", sans-serif;
+    font-size: 20px;
+}
+.nolink {
+    text-decoration: none;
+    color: #ff91a9;
+}
+.scroll {
+    width: 60%;
+    height: 170px;
+    overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar-track{
+    background-color: #ffccd8;
+    border-radius: 11px;
+}
+.scroll::-webkit-scrollbar {
+    background-color: #ffccd8;
+    border-radius: 11px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+}
+.line {
+    border: 2px solid #ff91a9;
+    margin: 15px auto;
+}
+form input, select option, select, button{
+    display: block;
+    margin-right: auto;
+    background-color: #dedede;
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-top: 2px;
+    padding: 5px;
+}
+.button {
+    color: black;
+    background-color: #dedede;
+    padding: 5px;
+    border-width: 2px;
+    border-style: outset;
+    cursor: pointer;
+}
+a {
+    cursor: pointer;
+}
+form select {
+    display: inline-block;
+    padding: 3px;
+}
+form option {
+
+}
+form button {
+    padding: 5px 10px 5px 10px;
+    font-family: "Franklin Gothic Book", sans-serif;
+    font-size: 20px;
+    background-color: #dedede;
+    display: block;
+    cursor: pointer;
+}
+table {
+    border-spacing: 10px;
+}
+td {
+    padding-right: 5px;
+    text-align: center;
+}
+.title {
+    padding: 3px 1px 20px;
+}
+.title span {
+    padding: 10px;
+    border-bottom: 2px solid #ff3253;
+    border-right: 2px solid #ff3253;
+}
+ul {
+    list-style: none;
+    text-align: left;
+}
+li::before {
+    content: "\2022";
+    color: #ff3253;
+    padding-right: 8px;
+}
